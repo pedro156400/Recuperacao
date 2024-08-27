@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    }
+a{
+        background-color: darkgray;
+        border: white;
+        border-radius: 20%;
+    }
+body{
+    background-color: cadetblue;
+}

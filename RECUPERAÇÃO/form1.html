@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a viewport para garantir que a página seja responsiva -->
+<link rel="stylesheet" href="style.css"> <!-- Linka o arquivo CSS externo chamado "style.css" -->
+<title>Formulário de Contato</title> <!-- Define o título da página -->
+</head>
+<body class="kat"> <!-- Aplica a classe "kat" ao elemento body -->
+
+<div class="container"> <!-- Cria um div com a classe "container" para agrupar o conteúdo -->
+  <h2>Formulário de Contato</h2> <!-- Título do formulário -->
+  <form action="/submit_form" method="post"> <!-- Início do formulário, que envia dados para "/submit_form" usando o método POST -->
+    <label for="name">Nome:</label> <!-- Rótulo para o campo de nome -->
+    <input type="text" id="name" name="name" required> <!-- Campo de entrada de texto para o nome, obrigatório -->
+
+    <label for="subject">Assunto:</label> <!-- Rótulo para o campo de assunto -->
+    <input type="text" id="subject" name="subject" required> <!-- Campo de entrada de texto para o assunto, obrigatório -->
+
+    <label for="email">Email:</label> <!-- Rótulo para o campo de email -->
+    <input type="email" id="email" name="email" required> <!-- Campo de entrada de email, obrigatório -->
+
+    <label for="phone">Telefone:</label> <!-- Rótulo para o campo de telefone -->
+    <input type="tel" id="phone" name="phone" required> <!-- Campo de entrada de telefone, obrigatório -->
+
+    <label for="message">Mensagem:</label> <!-- Rótulo para o campo de mensagem -->
+    <textarea id="message" name="message" required></textarea> <!-- Área de texto para a mensagem, obrigatória -->
+
+    <input type="submit" value="Enviar"> <!-- Botão de envio do formulário -->
+  </form>
+</div>
+
+</body>
+</html>

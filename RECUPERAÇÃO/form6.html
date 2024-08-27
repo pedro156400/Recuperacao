@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" href = "style.css">
+<title>Formulário de Demissão</title>
+</head>
+<body class="kat">
+
+<div class="container">
+  <h2>Formulário de Demissão</h2>
+  <form action="/submit_form" method="post">
+    <label for="name">Nome Completo:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="subject">CPF:</label>
+    <input type="number" id="subject" name="subject" required>
+
+    <label for="RG">Número RG:</label>
+    <input type="RG" id="RG" name="RG" required>
+
+    <label for="demissão">Motivo da Demissão</label>
+    <textarea id="demissão" name="demissão" required></textarea>
+
+    <input type="radio" name="sim" value="Sim">Sim</input>
+    <input type="radio" name="nao" value="Não">Não</input>
+
+    <input type="submit" value="Enviar">
+  </form>
+</div>
+
+</body>
+</html>

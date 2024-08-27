@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" href = "style.css">
+<title>Formulário de Ficha OP</title>
+</head>
+<body class="kat">
+
+<div class="container">
+  <h2>Formulário de Ficha OP</h2>
+  <form action="/submit_form" method="post">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="Personagem">Nome do Personagem:</label>
+    <input type="text" id="Personagem" name="Personagem" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Telefone:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="historia">Historia do Personagem :</label>
+    <textarea id="historia" name="historia" required></textarea>
+
+    <input type="submit" value="Enviar">
+  </form>
+</div>
+
+</body>
+</html>

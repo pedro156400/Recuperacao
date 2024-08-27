@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" href = "style.css">
+<title>Formulário de Contato</title>
+</head>
+<body class="kat">
+
+<div class="container">
+  <h2>Formulário de Contato</h2>
+  <form action="/submit_form" method="post">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="subject">Assunto:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Telefone:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="message">Mensagem:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Enviar">
+  </form>
+</div>
+
+</body>
+</html>

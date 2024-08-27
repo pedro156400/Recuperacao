@@ -1,0 +1,65 @@
+.kat {
+  font-family: Arial, sans-serif; /* Define a fonte do texto como Arial, com fallback para sans-serif */
+  background-color: #f2f2f2; /* Define a cor de fundo como um cinza claro */
+  display: flex; /* Define o layout como flexbox */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  height: 100vh; /* Define a altura como 100% da altura da viewport */
+}
+.container {
+  background-color: #fff; /* Define a cor de fundo como branco */
+  padding: 20px; /* Adiciona um padding de 20px ao redor do conteúdo */
+  border-radius: 8px; /* Arredonda os cantos com um raio de 8px */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do container */
+  width: 300px; /* Define a largura como 300px */
+}
+h2 {
+  text-align: center; /* Centraliza o texto */
+  color: #333; /* Define a cor do texto como um cinza escuro */
+}
+label {
+  display: block; /* Faz com que o label ocupe toda a largura disponível */
+  margin-top: 10px; /* Adiciona uma margem superior de 10px */
+  color: #333; /* Define a cor do texto como um cinza escuro */
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="password"], textarea {
+  width: 100%; /* Define a largura como 100% do container pai */
+  padding: 10px; /* Adiciona um padding de 10px */
+  margin-top: 5px; /* Adiciona uma margem superior de 5px */
+  border: 1px solid #ccc; /* Define uma borda de 1px sólida e cinza */
+  border-radius: 4px; /* Arredonda os cantos com um raio de 4px */
+  box-sizing: border-box; /* Inclui o padding e a borda no cálculo da largura e altura */
+}
+textarea {
+  height: 100px; /* Define a altura como 100px */
+}
+input[type="submit"] {
+  width: 100%; /* Define a largura como 100% do container pai */
+  background-color: #4CAF50; /* Define a cor de fundo como verde */
+  color: white; /* Define a cor do texto como branco */
+  padding: 14px 20px; /* Adiciona um padding de 14px nas laterais e 20px no topo e na base */
+  margin-top: 10px; /* Adiciona uma margem superior de 10px */
+  border: none; /* Remove a borda */
+  border-radius: 4px; /* Arredonda os cantos com um raio de 4px */
+  cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+}
+input[type="submit"]:hover {
+  background-color: #45a049; /* Muda a cor de fundo ao passar o mouse sobre o botão */
+}
+h1 {
+  text-align: center; /* Centraliza o texto */
+}
+@media (max-width: 700px) {
+  .container {
+      margin: 20px; /* Adiciona uma margem de 20px */
+      padding: 15px; /* Adiciona um padding de 15px */
+  }
+}
+a {
+  background: #ccc; /* Define a cor de fundo como cinza claro */
+  border: #fff; /* Define a borda como branca */
+  border-radius: 20%; /* Arredonda os cantos com um raio de 20% */
+}
+body {
+  background-color: steelblue; /* Define a cor de fundo como azul aço */
+}
